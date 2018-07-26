@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ComplyfileApiContext-Web.config Connection String" description="ComplyfileApiContext Connection String used in web.config by the application to access the database." defaultValue="Server=fknbbrj98e.database.windows.net;database=ComplyfileTest;user id=colinmcbride;pwd=Eftcty22.,;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Marcelo\\Documents\\Ability\\Complyfile\ API\\ComplyfileAPI\\ComplyfileAPI\.Services\.API\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ComplyfileApiContext']/@connectionString" />
+  </parameter>
+</parameters>
