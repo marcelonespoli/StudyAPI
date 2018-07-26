@@ -1,0 +1,77 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ComplyfileAPI.Services.API</name>
+    </assembly>
+    <members>
+        <member name="M:StudyAPI.Services.API.App_Start.SimpleInjectorWebApiInitializer.Initialize">
+            <summary>Initialize the container and register it as Web API Dependency Resolver.</summary>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.AuthController.Login(StudyAPI.Services.API.Models.Authorization.LoginViewModel)">
+            <summary>
+            Login
+            </summary>
+            <remarks>
+            Login the API to have access the organisations
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.AuthController.Logout">
+            <summary>
+            Logout
+            </summary>
+            <remarks>
+            Leave the API
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.AuthController.Organisation">
+            <summary>
+            List organisations
+            </summary>
+            <remarks>
+            Get all organisations related of the logged user
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.AuthController.SetDefaultOrganisation(System.Int32)">
+            <summary>
+            Set default organisation
+            </summary>
+            <param name="id">Organisation id</param>
+            <remarks>
+            Set the organisation that you want to have access
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.VolunteerController.Get">
+            <summary>
+            Provide all volunteers for the organisation
+            </summary>
+            <remarks>
+            Get a list of volunteers for the organisation setted as default
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.VolunteerController.GetVolunteer(System.Int32)">
+            <summary>
+            Provide details for a volunteer
+            </summary>
+            <remarks>
+            Get a specific volunteer
+            </remarks>
+            <param name="id">Volunteer id</param>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.VolunteerController.Post(StudyAPI.Services.API.Models.Volunteer.InviteViewModel)">
+            <summary>
+            Invite a new volunteer
+            </summary>
+            <remarks>
+            Invite a new volunteer for the organisation setted as default
+            </remarks>
+        </member>
+        <member name="M:StudyAPI.Services.API.Controllers.VolunteerController.Put(StudyAPI.Services.API.Models.Volunteer.EditVolunteerViewModel)">
+            <summary>
+            Update a volunteer
+            </summary>
+            <remarks>
+            Update details of specific volunteer
+            </remarks>
+        </member>
+    </members>
+</doc>
